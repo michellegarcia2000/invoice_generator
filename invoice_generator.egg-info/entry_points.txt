@@ -1,0 +1,2 @@
+[console_scripts]
+run-invoice = invoice_generator.invoice_generator:main

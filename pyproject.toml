@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "invoice_generator"
+version = "0.1.0"
+dependencies = [
+    "PyQt6",
+    "python-docx",
+    "docx2pdf"
+]
+
+[project.scripts]
+run-invoice = "invoice_generator.invoice_generator:main"

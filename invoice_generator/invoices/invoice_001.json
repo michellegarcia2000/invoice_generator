@@ -1,0 +1,16 @@
+{
+    "Invoice Number": "001",
+    "Invoice Date": "2025-03-14",
+    "Billing Address": "testing",
+    "Shipping Address": "testing",
+    "Instructions": "testing",
+    "Items": [
+        {
+            "Quantity": "1",
+            "Description": "testing",
+            "Unit Price": "500",
+            "Total": "500.00"
+        }
+    ],
+    "Total Amount": "Total Amount: $500.00"
+}
